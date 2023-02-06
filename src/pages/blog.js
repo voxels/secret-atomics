@@ -2,32 +2,29 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
 
+import Seo from '../components/seo'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 import ArticlePreview from '../components/article-preview'
 
-class RootIndex extends React.Component {
+class BlogIndex extends React.Component {
   render() {
     const posts = get(this, 'props.data.allContentfulBlogPost.nodes')
-    const [author] = get(this, 'props.data.allContentfulPerson.nodes')
 
     return (
       <Layout location={this.props.location}>
-        <Hero
-          image={author.heroImage.gatsbyImage}
-          title={author.name}
-          content={author.shortBio}
-        />
+        <Seo title="Blog" />
+        <Hero title="Blog" />
         <ArticlePreview posts={posts} />
       </Layout>
     )
   }
 }
 
-export default RootIndex
+export default BlogIndex
 
 export const pageQuery = graphql`
-  query HomeQuery {
+  query BlogIndexQuery {
     allContentfulBlogPost(sort: { publishDate: DESC }) {
       nodes {
         title
@@ -44,20 +41,6 @@ export const pageQuery = graphql`
         }
         description {
           raw
-        }
-      }
-    }
-    allContentfulPerson(
-      filter: { contentful_id: { eq: "15jwOBqpxqSAOy2eOO4S0m" } }
-    ) {
-      nodes {
-        name
-        shortBio {
-          raw
-        }
-        title
-        heroImage: image {
-          gatsbyImage(layout: CONSTRAINED, placeholder: BLURRED, width: 1180)
         }
       }
     }
