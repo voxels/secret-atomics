@@ -6,7 +6,7 @@ import { documentToPlainTextString } from '@contentful/rich-text-plain-text-rend
 import { BLOCKS } from '@contentful/rich-text-types'
 import { GatsbyImage, getImage } from 'gatsby-plugin-image'
 import readingTime from 'reading-time'
-
+ 
 import Seo from '../components/seo'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
@@ -58,7 +58,8 @@ class BlogPostTemplate extends React.Component {
           </span>
           <div className={styles.article}>
             <div className={styles.body}>
-              {post.body?.raw && renderRichText(post.body, options)}
+                <div dangerouslySetInnerHTML={{ __html:post.markdownBody.childMarkdownRemark.html }}/>
+                {post.body?.raw && renderRichText(post.body, options)}
             </div>
             <Tags tags={post.tags} />
             {(previous || next) && (
@@ -110,9 +111,13 @@ export const pageQuery = graphql`
           src
         }
       }
+      markdownBody {
+          childMarkdownRemark{
+            html
+          }
+      }
       body {
         raw
-        
       }
       tags
       description {
