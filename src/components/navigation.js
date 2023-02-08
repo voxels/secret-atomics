@@ -19,6 +19,11 @@ const Navigation = () => (
           Blog
         </Link>
       </li>
+      <li className={styles.navigationItem}>
+        <Link to={{ pathname: "https://voxels.github.io/professional_experience_08082022"}} target="_blank" activeClassName="active">
+          iOS Development
+        </Link>
+      </li>
     </ul>
   </nav>
 )
