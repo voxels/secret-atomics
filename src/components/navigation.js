@@ -20,9 +20,7 @@ const Navigation = () => (
         </Link>
       </li>
       <li className={styles.navigationItem}>
-        <Link to={{ pathname: "https://voxels.github.io/professional_experience_08082022"}} target="_blank" activeClassName="active">
-          iOS Development
-        </Link>
+        <a href="https://voxels.github.io/professional_experience_08082022" target="_blank">iOS Development</a>
       </li>
     </ul>
   </nav>
