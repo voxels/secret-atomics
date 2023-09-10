@@ -6,14 +6,16 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Secret Atomics",
+    description: "Secret Atomics LLC",
   },
   plugins: [
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-plugin-image",
+    'gatsby-plugin-resolve-src',
+    'gatsby-plugin-eslint',
     {
       resolve: "gatsby-source-contentful",
       options: {
@@ -27,4 +29,5 @@ module.exports = {
       options: {},
     },
   ],
+  trailingSlash: "always"
 };
