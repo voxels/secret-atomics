@@ -22,6 +22,9 @@ const Navigation = () => (
       <li className={styles.navigationItem}>
         <a href="https://voxels.github.io/professional_experience_08082022" target="_blank">iOS Development</a>
       </li>
+      <li className={styles.navigationItem}>
+        <a href="https://invertives.com" target="_blank">Unreal Engine Development</a>
+      </li>
     </ul>
   </nav>
 )
