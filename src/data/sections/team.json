@@ -1,0 +1,22 @@
+{
+    "teams": [
+      {
+        "id": 1,
+        "image": "/img/team/1.jpg",
+        "title": "Michael Edgcumbe",
+        "sub": "Lead UX Engineer"
+      }
+    ],
+  "skills": [
+    {
+      "id": 1,
+      "text": "Product Management",
+      "value": "60%"
+    },
+    {
+      "id": 2,
+      "text": "UX Engineering",
+      "value": "90%"
+    }
+  ]
+}

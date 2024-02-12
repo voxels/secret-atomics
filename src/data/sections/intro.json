@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "title": "VR, AR, and Spatial Computing",
+        "content": "10+ years of experience involved in researching and prototyping new application paradigms, solving challenging and interesting challenges in the AR/VR/Spatial Computing space..",
+        "image": "/img/slid/01.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Native Mobile Applications",
+        "content": "10+ years of experience focusing on designing and developing full stack iOS applications and backend services, data explorers and visualizations, interactive installations, and games for adults and kids.",
+        "image": "/img/slid/02.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Experience Design and Development",
+        "content": "20+ years helping launch products with venture-backed startups, non-profits, and solo-entrepreneurs, and Fortune 20 companies like Google, Samsung, and Apple.",
+        "image": "/img/slid/03.jpg"
+    }
+]
