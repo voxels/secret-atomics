@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "gatsby";
 import teamSkillsProgress from "common/teamSkillsProgress";
 import tooltipEffect from "common/tooltipEffect";
 import teamsDate from "data/sections/team.json";
@@ -87,6 +88,28 @@ const Team = () => {
                 </div>
               </div>
             </div>
+                            <span></span>
+                <span></span>
+                <span></span>
+            <div className="sub-title">
+                          <p>
+                          
+              <h5>
+              <Link to={`https://voxels.github.io/professional_experience_08082022`}>
+                  iOS
+                </Link>
+                </h5>
+        </p>
+        </div>
+        <div className="sub-title">
+        <p>
+        <h5>
+        <Link to={`https://invertices.com`}>
+                  Unreal Engine
+                </Link>
+                </h5>
+                </p>
+                </div>
           </div>
         </div>
       </div>
