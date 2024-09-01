@@ -46,8 +46,8 @@ const Contact = () => {
       <ContactHeader />
       <div className="main-content">
       <div dangerouslySetInnerHTML={{ __html: rawHTML }} />
-        <Footer hideBGCOLOR />
       </div>
+      <Footer />
     </DarkTheme>
   );
 };

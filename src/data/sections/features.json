@@ -9,12 +9,12 @@
         "id": 2,
         "icon": "pe-7s-phone",
         "title": "Native Mobile Applications",
-        "content": "Bespoke, scalable, multiplatform application pruduction using Swift, SwiftUI, and UIKit"
+        "content": "Bespoke, scalable, Apple platform application production using Swift, SwiftUI, and UIKit"
     },
     {
         "id": 3,
         "icon": "pe-7s-box2",
-        "title": "XD Expertise",
-        "content": "Proven design and technical leadership installing site-specific immersive experiences driven by Unreal Engine, SceneKit, and SpriteKit"
+        "title": "Product Design Expertise",
+        "content": "Proven design leadership grounding high level concepts into features that achieve product market fit."
     }
 ]
