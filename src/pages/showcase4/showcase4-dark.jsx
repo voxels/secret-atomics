@@ -37,7 +37,6 @@ const Showcase4Dark = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <WorksStyle3 />
       <Footer />
-      </div>
     </DarkTheme>
   );
 };
