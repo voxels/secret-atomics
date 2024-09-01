@@ -8,7 +8,7 @@ const PagesHeader = () => {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-                 Secret Atomics creates multiplatform, native applications.
+                 Secret Atomics creates native multi-platform applications for the Apple family of devices.
               </h1>
             </div>
           </div>

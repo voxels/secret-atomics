@@ -46,11 +46,11 @@ const Navbar = ({ lr, nr, theme }) => {
                   Home
                 </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to={`/showcase4/showcase4-dark`} className="nav-link">
                 Services
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to={`/about/about-dark`} className="nav-link">
                 About

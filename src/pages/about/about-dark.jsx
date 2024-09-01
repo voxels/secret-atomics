@@ -1,11 +1,11 @@
 import React from "react";
 import Navbar from "components/Navbar/navbar";
-import IntroWithSlider from "components/Intro-with-slider/intro-with-slider";
 import Services from "components/Services/services";
 import VideoWithTestimonials from "components/Video-with-testimonials/video-with-testimonials";
 import SkillsCircle from "components/Skills-circle/skills-circle";
 import Clients from "components/Clients/clients";
 import CallToAction from "components/Call-to-action/call-to-action";
+import AboutUs4 from "components/About-us4/about-us4";  
 import Footer from "components/Footer/footer";
 import PagesHeader from "components/Pages-header";
 import AboutIntro from "components/About-intro";
@@ -34,19 +34,12 @@ const About = () => {
     });
   }, [navbarRef]);
 
-  // Raw HTML content
-  const rawHTML = `<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/voxels-noisederived/30min" style="min-width:320px;height:700px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-<!-- Calendly inline widget end -->`;
-
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
       <PagesHeader />
-      <IntroWithSlider />
       <AboutIntro />
-      <div dangerouslySetInnerHTML={{ __html: rawHTML }} />
+      <AboutUs4 />
       <Services style="4item" />
       <Team />
       <CallToAction />

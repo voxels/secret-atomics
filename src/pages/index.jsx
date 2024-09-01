@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "components/Navbar/navbar";
+import IntroWithSlider from "components/Intro-with-slider/intro-with-slider";
 import Numbers from "components/Numbers/numbers";
 import Blogs2 from "components/blogs/Blogs2/blogs2";
 import CallToAction from "components/Call-to-action/call-to-action";
@@ -46,6 +47,7 @@ const Homepage1 = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
+      <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <Services4 serviceMB50 />
         <AboutUs4 />
