@@ -47,13 +47,13 @@ const Navbar = ({ lr, nr, theme }) => {
                 </Link>
             </li>
             <li className="nav-item">
-              <Link to={`/about/about-dark`} className="nav-link">
-                About
+              <Link to={`/showcase4/showcase4-dark`} className="nav-link">
+                Services
               </Link>
             </li>
             <li className="nav-item">
-              <Link to={`https://noisederived.com`} className="nav-link">
-                Blog
+              <Link to={`/about/about-dark`} className="nav-link">
+                About
               </Link>
             </li>
             <li className="nav-item">

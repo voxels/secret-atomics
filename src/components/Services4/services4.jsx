@@ -12,7 +12,7 @@ const Services4 = ({serviceMB50}) => {
                 XD leadership
               </h6>
               <h3 className="wow color-font">
-                We are an experienced product design and development agency
+                We are a product design and native mobile development studio
               </h3>
             </div>
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "components/Navbar/navbar";
+import IntroWithSlider from "components/Intro-with-slider/intro-with-slider";
 import Services from "components/Services/services";
 import VideoWithTestimonials from "components/Video-with-testimonials/video-with-testimonials";
 import SkillsCircle from "components/Skills-circle/skills-circle";
@@ -33,11 +34,19 @@ const About = () => {
     });
   }, [navbarRef]);
 
+  // Raw HTML content
+  const rawHTML = `<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/voxels-noisederived/30min" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->`;
+
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
       <PagesHeader />
+      <IntroWithSlider />
       <AboutIntro />
+      <div dangerouslySetInnerHTML={{ __html: rawHTML }} />
       <Services style="4item" />
       <Team />
       <CallToAction />
@@ -51,7 +60,7 @@ export const Head = () => {
     <>
       <title>About Secret Atomics</title>
     </>
-  )
-}
+  );
+};
 
 export default About;

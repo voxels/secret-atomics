@@ -4,19 +4,19 @@
         "id": 1,
         "image": "/img/team/1.jpg",
         "title": "Michael Edgcumbe",
-        "sub": "Lead UX Engineer"
+        "sub": "Product Designer and Lead iOS Engineer"
       }
     ],
   "skills": [
     {
       "id": 1,
-      "text": "Product Management",
-      "value": "60%"
+      "text": "Product Design",
+      "value": "50%"
     },
     {
       "id": 2,
-      "text": "UX Engineering",
-      "value": "90%"
+      "text": "iOS & visionOS Engineering",
+      "value": "50%"
     }
   ]
 }
