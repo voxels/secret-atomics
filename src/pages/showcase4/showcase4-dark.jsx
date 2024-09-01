@@ -1,13 +1,43 @@
 import React from "react";
-import NavbarFullMenu from "components/Navbar-full-menu/navbar.full-menu";
-import ShowcasesGrid from "components/Showcases-grid/Showcases-grid";
 import DarkTheme from "layouts/Dark";
+import Navbar from "components/Navbar/navbar";
+import WorksStyle3 from "components/Works-style3/works-style3";
+import Footer from "components/Footer/footer";
 
 const Showcase4Dark = () => {
+  const navbarRef = React.useRef(null);
+  const logoRef = React.useRef(null);
+
+  React.useEffect(() => {
+    document.querySelector("body").classList.add("contact-page");
+
+    var navbar = navbarRef.current;
+
+    if (window.pageYOffset > 300) {
+      navbar.classList.add("nav-scroll");
+    } else {
+      navbar.classList.remove("nav-scroll");
+    }
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) {
+        navbar.classList.add("nav-scroll");
+      } else {
+        navbar.classList.remove("nav-scroll");
+      }
+    });
+
+    return () => {
+      document.querySelector("body").classList.remove("contact-page");
+    };
+  }, [navbarRef]);
+
   return (
     <DarkTheme>
-      <NavbarFullMenu />
-      <ShowcasesGrid />
+      <Navbar nr={navbarRef} lr={logoRef} />
+      <WorksStyle3 />
+      <Footer />
+      </div>
     </DarkTheme>
   );
 };

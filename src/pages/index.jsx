@@ -7,7 +7,6 @@ import CallToAction from "components/Call-to-action/call-to-action";
 import Footer from "components/Footer/footer";
 import Services4 from "components/Services4/services4";
 import AboutUs4 from "components/About-us4/about-us4";  
-import WorksStyle3 from "components/Works-style3/works-style3";
 import FullTestimonials from "components/Full-testimonials/full-testimonials";
 import DarkTheme from "layouts/Dark";
 
@@ -50,9 +49,7 @@ const Homepage1 = () => {
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <Services4 serviceMB50 />
-        <AboutUs4 />
-        <WorksStyle3 />
-        <Blogs2 />
+        {/* <Blogs2 /> */}
         <CallToAction img="/img/patrn1.png" />
         <Footer />
       </div>

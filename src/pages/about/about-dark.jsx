@@ -39,8 +39,8 @@ const About = () => {
       <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
       <PagesHeader />
       <AboutIntro />
-      <AboutUs4 />
       <Services style="4item" />
+      <AboutUs4 />
       <Team />
       <CallToAction />
       <Footer />
