@@ -6,11 +6,11 @@ import ContactForm from "components/Contact-form/contact-form";
 import DarkTheme from "layouts/Dark";
 
   // Raw HTML content
-  const rawHTML = `<!-- Calendly badge widget begin -->
+  const rawHTML = `<!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/voxels-noisederived/30min?hide_gdpr_banner=1', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: undefined }); }</script>
-<!-- Calendly badge widget end -->`;
+<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/voxels-noisederived/30min?hide_gdpr_banner=1'});return false;">Create an appointment with Secret Atomics</a>
+<!-- Calendly link widget end -->`;
 
 
 const Contact = () => {
@@ -47,8 +47,8 @@ const Contact = () => {
       <ContactHeader />
       <div className="main-content">
       <div dangerouslySetInnerHTML={{ __html: rawHTML }} />
-      </div>
       <Footer />
+      </div>
     </DarkTheme>
   );
 };

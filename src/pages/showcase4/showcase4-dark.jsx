@@ -3,7 +3,7 @@ import DarkTheme from "layouts/Dark";
 import Navbar from "components/Navbar/navbar";
 import WorksStyle3 from "components/Works-style3/works-style3";
 import Footer from "components/Footer/footer";
-import Services7 from "components/Services7/services7"
+import Services6 from "components/Services6/services6"
 
 const Showcase4Dark = () => {
   const navbarRef = React.useRef(null);
@@ -36,7 +36,7 @@ const Showcase4Dark = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
-      <Services7 />
+      <Services6 />
       <WorksStyle3 />
       <Footer />
     </DarkTheme>

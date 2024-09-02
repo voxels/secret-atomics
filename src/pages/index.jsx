@@ -47,9 +47,9 @@ const Homepage1 = () => {
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <Services4 serviceMB50 />
-      </div>
       <CallToAction img="/img/patrn1.png" />
       <Footer />
+      </div>
     </DarkTheme>
   );
 };

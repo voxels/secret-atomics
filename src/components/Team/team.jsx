@@ -95,8 +95,8 @@ const Team = () => {
                           <p>
                           
               <h5>
-              <Link to={`https://voxels.github.io/professional_experience_08082022`}>
-                  iOS
+              <Link to={`https://voxels.github.io/professional_experience_092024`}>
+                  Resumé
                 </Link>
                 </h5>
         </p>
@@ -104,8 +104,8 @@ const Team = () => {
         <div className="sub-title">
         <p>
         <h5>
-        <Link to={`https://invertices.com`}>
-                  Unreal Engine
+        <Link to={`https://linkedin.com/in/voxels`}>
+                 LinkedIn
                 </Link>
                 </h5>
                 </p>
