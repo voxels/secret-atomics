@@ -97,7 +97,6 @@ const Services6 = () => {
                 <li>Continuous Integration/Continuous Deployment (CI/CD): Implementing pipelines for automated testing, integration, and deployment.</li>
                 <li>Cloud Hosting & Infrastructure: Setting up and managing cloud services (e.g. iCloud, AWS, Google Cloud) to host the product.</li>
                 <li>Security: Implementing security best practices to protect the product and user data.</li>
-                </li>
             </ul>
             </p>
           </div>
