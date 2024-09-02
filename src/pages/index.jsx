@@ -2,12 +2,10 @@ import React from "react";
 import Navbar from "components/Navbar/navbar";
 import IntroWithSlider from "components/Intro-with-slider/intro-with-slider";
 import Numbers from "components/Numbers/numbers";
-import Blogs2 from "components/blogs/Blogs2/blogs2";
 import CallToAction from "components/Call-to-action/call-to-action";
 import Footer from "components/Footer/footer";
 import Services4 from "components/Services4/services4";
 import AboutUs4 from "components/About-us4/about-us4";  
-import FullTestimonials from "components/Full-testimonials/full-testimonials";
 import DarkTheme from "layouts/Dark";
 
 const Homepage1 = () => {
@@ -49,10 +47,9 @@ const Homepage1 = () => {
       <IntroWithSlider sliderRef={fixedSlider} />
       <div ref={MainContent} className="main-content">
         <Services4 serviceMB50 />
-        {/* <Blogs2 /> */}
-        <CallToAction img="/img/patrn1.png" />
-        <Footer />
       </div>
+      <CallToAction img="/img/patrn1.png" />
+      <Footer />
     </DarkTheme>
   );
 };
