@@ -9,7 +9,7 @@ import DarkTheme from "layouts/Dark";
   const rawHTML = `<!-- Calendly link widget begin -->
 <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
 <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/voxels-noisederived/30min?hide_gdpr_banner=1'});return false;">Create an appointment with Secret Atomics</a>
+<center><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/voxels-noisederived/30min?hide_gdpr_banner=1'});return false;">Create an appointment with Secret Atomics</a></center>
 <!-- Calendly link widget end -->`;
 
 

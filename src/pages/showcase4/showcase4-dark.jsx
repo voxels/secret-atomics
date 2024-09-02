@@ -4,6 +4,7 @@ import Navbar from "components/Navbar/navbar";
 import WorksStyle3 from "components/Works-style3/works-style3";
 import Footer from "components/Footer/footer";
 import Services6 from "components/Services6/services6"
+import CallToAction from "components/Call-to-action/call-to-action";
 
 const Showcase4Dark = () => {
   const navbarRef = React.useRef(null);
@@ -38,6 +39,7 @@ const Showcase4Dark = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <Services6 />
       <WorksStyle3 />
+      <CallToAction img="/img/patrn1.png" />
       <Footer />
     </DarkTheme>
   );
@@ -46,7 +48,7 @@ const Showcase4Dark = () => {
 export const Head = () => {
   return (
     <>
-      <title>Vie - Showcase 4 Dark</title>
+      <title>Secret Atomics LLC</title>
     </>
   )
 }
