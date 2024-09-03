@@ -3,12 +3,11 @@ import { Link } from 'gatsby';
 import intro5Data from "data/sections/intro5.json";
 import removeSlashFromPagination from "common/removeSlashpagination";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
+import { Navigation, Pagination, Parallax } from "swiper";
 
 import "swiper/css";
 import "swiper/css/navigation";
 
-SwiperCore.use([Navigation, Pagination, Parallax]);
 
 const Intro5 = () => {
   const [load, setLoad] = React.useState(true);

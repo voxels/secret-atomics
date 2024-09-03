@@ -1,8 +1,17 @@
 import React from "react";
 import Navbar from "components/Navbar/navbar";
 import Footer from "components/Footer/footer";
-import Intro2 from "components/Intro2/intro2";
+import ContactHeader from "components/Contact-header/contact-header";
+import ContactForm from "components/Contact-form/contact-form";
 import DarkTheme from "layouts/Dark";
+
+  // Raw HTML content
+  const rawHTML = `<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+<center><a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/voxels-noisederived/30min?hide_gdpr_banner=1'});return false;">Create an appointment with Secret Atomics</a></center>
+<!-- Calendly link widget end -->`;
+
 
 const Contact = () => {
   const navbarRef = React.useRef(null);
@@ -35,10 +44,11 @@ const Contact = () => {
   return (
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
+      <ContactHeader />
       <div className="main-content">
-      <Intro2 />
-      </div>
+      <div dangerouslySetInnerHTML={{ __html: rawHTML }} />
       <Footer />
+      </div>
     </DarkTheme>
   );
 };

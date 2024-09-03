@@ -1,17 +1,27 @@
 import React from "react";
 import Navbar from "components/Navbar/navbar";
+import IntroWithSlider from "components/Intro-with-slider/intro-with-slider";
 import CallToAction from "components/Call-to-action/call-to-action";
 import Footer from "components/Footer/footer";
-import PagesHeader from "components/Pages-header";
-import AboutIntro from "components/About-intro";
-import Team from "components/Team/team";
+import Services4 from "components/Services4/services4";
 import DarkTheme from "layouts/Dark";
 
-const About = () => {
+const Homepage1 = () => {
+  const fixedSlider = React.useRef(null);
+  const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
+    setTimeout(() => {
+      if (fixedSlider.current) {
+        var slidHeight = fixedSlider.current.offsetHeight;
+      }
+      if (MainContent.current) {
+        MainContent.current.style.marginTop = slidHeight + "px";
+      }
+    }, 1000);
+
     var navbar = navbarRef.current;
 
     if (window.pageYOffset > 300) {
@@ -19,6 +29,7 @@ const About = () => {
     } else {
       navbar.classList.remove("nav-scroll");
     }
+
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add("nav-scroll");
@@ -26,16 +37,17 @@ const About = () => {
         navbar.classList.remove("nav-scroll");
       }
     });
-  }, [navbarRef]);
+  }, [fixedSlider, MainContent, navbarRef]);
 
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
-      <PagesHeader />
-      <AboutIntro />
-      <Team />
-      <CallToAction />
+      <Navbar nr={navbarRef} lr={logoRef} />
+      <IntroWithSlider sliderRef={fixedSlider} />
+      <div ref={MainContent} className="main-content">
+        <Services4 serviceMB50 />
+      <CallToAction img="/img/patrn1.png" />
       <Footer />
+      </div>
     </DarkTheme>
   );
 };
@@ -43,9 +55,9 @@ const About = () => {
 export const Head = () => {
   return (
     <>
-      <title>About Secret Atomics</title>
+      <title>Secret Atomics LLC</title>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default Homepage1;

@@ -3,24 +3,21 @@ import { Link } from "gatsby";
 import introData from "data/sections/intro.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
-
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "common/removeSlashpagination";
 import fadeWhenScroll from "common/fadeWhenScroll";
 
-SwiperCore.use([Navigation, Pagination, Parallax]);
-
 const IntroWithSlider = ({ sliderRef }) => {
   const [load, setLoad] = React.useState(true);
+
   React.useEffect(() => {
     fadeWhenScroll(document.querySelectorAll(".fixed-slider .caption"));
     setTimeout(() => {
       removeSlashFromPagination();
       setLoad(false);
-    }, 1000);
+    }, 1000); // This will delay content rendering by 1 second.
   }, []);
 
   const navigationPrevRef = React.useRef(null);
@@ -60,16 +57,9 @@ const IntroWithSlider = ({ sliderRef }) => {
                   );
                 }
 
-                swiper.params.navigation.prevEl = navigationPrevRef.current;
-                swiper.params.navigation.nextEl = navigationNextRef.current;
-
-                swiper.params.pagination.el = paginationRef.current;
-
-                swiper.navigation.destroy();
                 swiper.navigation.init();
                 swiper.navigation.update();
 
-                swiper.pagination.destroy();
                 swiper.pagination.init();
                 swiper.pagination.update();
               });
@@ -119,11 +109,11 @@ const IntroWithSlider = ({ sliderRef }) => {
         <div ref={paginationRef} className="swiper-pagination top botm"></div>
 
         <div className="social-icon">
-              <div className="social">
-                <a href="https://youtube.com/@secretatomics?si=tzMCLkyvNcjDNpYu">
-                  <i className="fab fa-youtube"></i>
-                </a>
-              </div>
+          <div className="social">
+            <a href="https://youtube.com/@secretatomics?si=tzMCLkyvNcjDNpYu">
+              <i className="fab fa-youtube"></i>
+            </a>
+          </div>
         </div>
       </div>
     </header>

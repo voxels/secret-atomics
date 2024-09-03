@@ -9,13 +9,13 @@ const AboutUs4 = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="col-lg-6 img md-mb50">
-            <img src="/img/intro/4.jpg" alt="" />
+            <img src="/img/slid/03.jpg" alt="" />
           </div>
           <div className="col-lg-4 valign">
             <div className="cont full-width">
               <h3 className="color-font">Boundary pushing</h3>
               <h6>
-                Industry defining solutions <br /> manifesting your creative potential.
+                for thousands to billions of users
               </h6>
               {typeof window !== "undefined" && (
                 <ModalVideo

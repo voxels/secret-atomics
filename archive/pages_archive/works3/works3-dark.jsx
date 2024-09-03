@@ -1,21 +1,20 @@
 import React from "react";
-import Navbar from "components/Navbar/navbar";
-import AboutUs4 from "components/About-us4/about-us4";  
-import CallToAction from "components/Call-to-action/call-to-action";
-import Footer from "components/Footer/footer";
-import Services4 from "components/Services4/services4";
 import DarkTheme from "layouts/Dark";
+import Navbar from "components/Navbar/navbar";
+import Footer from "components/Footer/footer";
+import WorksHeader from "components/Works-header/works-header";
+import WorksStyle2 from "components/Works-style2/works-style2";
 
-const Homepage1 = () => {
-  const fixedSlider = React.useRef(null);
+const WorksDark = () => {
+  const fixedHeader = React.useRef(null);
   const MainContent = React.useRef(null);
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
     setTimeout(() => {
-      if (fixedSlider.current) {
-        var slidHeight = fixedSlider.current.offsetHeight;
+      if (fixedHeader.current) {
+        var slidHeight = fixedHeader.current.offsetHeight;
       }
       if (MainContent.current) {
         MainContent.current.style.marginTop = slidHeight + "px";
@@ -37,16 +36,21 @@ const Homepage1 = () => {
         navbar.classList.remove("nav-scroll");
       }
     });
-  }, [fixedSlider, MainContent, navbarRef]);
+  }, [fixedHeader, MainContent, navbarRef]);
 
   return (
     <DarkTheme>
+      <div className="circle-bg">
+        <div className="circle-color fixed">
+          <div className="gradient-circle"></div>
+          <div className="gradient-circle two"></div>
+        </div>
+      </div>
       <Navbar nr={navbarRef} lr={logoRef} />
+      <WorksHeader sliderRef={fixedHeader} />
       <div ref={MainContent} className="main-content">
-      <Services4 serviceMB50 />
-      <AboutUs4 />
-      <CallToAction img="/img/patrn1.png" />
-      <Footer />
+        <WorksStyle2 grid={2} hideFilter filterPosition="center" />
+        <Footer />
       </div>
     </DarkTheme>
   );
@@ -55,9 +59,9 @@ const Homepage1 = () => {
 export const Head = () => {
   return (
     <>
-      <title>Secret Atomics: Product Design and iOS Engineering Studio</title>
+      <title>Vie - Works 3 Dark</title>
     </>
   )
 }
 
-export default Homepage1;
+export default WorksDark;

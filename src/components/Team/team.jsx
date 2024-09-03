@@ -28,7 +28,7 @@ const Team = () => {
                 <span></span>
               </div>
               <h3 className="co-tit mb-15">
-                We help manifest your dreams.
+                Michael Edgcumbe
               </h3>
               <p>
                 Michael collaborates with agile teams on research and documentation, UX design, hardware development, and custom fabrication. As an artist, he pursues a passion for natural interfaces combining real-time motion tracking and lighting control. He attended the Wharton School at the University of Pennsylvania as an undergraduate in the Joseph Wharton Scholars Program and holds a graduate degree from the Interactive Telecommunications Program at New York University. He was awarded a National Merit Scholarship and is an Eagle Scout in the Boy Scouts of America.

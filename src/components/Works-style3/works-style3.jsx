@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from 'gatsby';
 import initIsotope from "common/initIsotope";
 
 const WorksStyle3 = () => {
@@ -16,13 +15,8 @@ const WorksStyle3 = () => {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-                 Product Design and iOS / visionOS Engineering Examples
+                 Product Design and Engineering Clients
               </h1>
-            </div>
-          </div>
-          <div className="col-lg-10">
-            <div className="img">
-              <img src="/img/slid/about.jpg" alt="" />
             </div>
           </div>
         </div>

@@ -1,17 +1,18 @@
 import React from "react";
-import Navbar from "components/Navbar/navbar";
-import CallToAction from "components/Call-to-action/call-to-action";
-import Footer from "components/Footer/footer";
-import PagesHeader from "components/Pages-header";
-import AboutIntro from "components/About-intro";
-import Team from "components/Team/team";
 import DarkTheme from "layouts/Dark";
+import Navbar from "components/Navbar/navbar";
+import WorksStyle3 from "components/Works-style3/works-style3";
+import Footer from "components/Footer/footer";
+import Services6 from "components/Services6/services6";
+import CallToAction from "components/Call-to-action/call-to-action";
 
-const About = () => {
+const ServicesDark = () => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
 
   React.useEffect(() => {
+    document.querySelector("body").classList.add("contact-page");
+
     var navbar = navbarRef.current;
 
     if (window.pageYOffset > 300) {
@@ -19,6 +20,7 @@ const About = () => {
     } else {
       navbar.classList.remove("nav-scroll");
     }
+
     window.addEventListener("scroll", () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add("nav-scroll");
@@ -26,15 +28,18 @@ const About = () => {
         navbar.classList.remove("nav-scroll");
       }
     });
+
+    return () => {
+      document.querySelector("body").classList.remove("contact-page");
+    };
   }, [navbarRef]);
 
   return (
     <DarkTheme>
-      <Navbar nr={navbarRef} lr={logoRef} from="about-dark" />
-      <PagesHeader />
-      <AboutIntro />
-      <Team />
-      <CallToAction />
+      <Navbar nr={navbarRef} lr={logoRef} />
+      <Services6 />
+      <WorksStyle3 />
+      <CallToAction img="/img/patrn1.png" />
       <Footer />
     </DarkTheme>
   );
@@ -43,9 +48,9 @@ const About = () => {
 export const Head = () => {
   return (
     <>
-      <title>About Secret Atomics</title>
+      <title>Secret Atomics Services and Clients</title>
     </>
-  );
-};
+  )
+}
 
-export default About;
+export default ServicesDark;
