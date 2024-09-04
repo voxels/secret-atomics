@@ -55,7 +55,7 @@ const Homepage1 = () => {
 export const Head = () => {
   return (
     <>
-      <title>Secret Atomics: Product Design and iOS Engineering Studio</title>
+      <title>Secret Atomics: Product Design and Engineering Studio for Apple Platforms</title>
     </>
   )
 }
