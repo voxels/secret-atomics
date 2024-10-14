@@ -30,7 +30,7 @@ const AboutUs4 = () => {
                 <div className="vid-icon">
                   <a
                     className="vid"
-                    href="https://youtu.be/U6vQsqJ75Ag"
+                    href="https://youtu.be/-x-kdBgQYp8"
                     onClick={(e) => {
                       e.preventDefault();
                       setOpen(true);
@@ -44,7 +44,7 @@ const AboutUs4 = () => {
                   </a>
                 </div>
                 <div className="valign">
-                  <span className="text">Watch Video</span>
+                  <span className="text">Watch our 2024 visionPro highlights</span>
                 </div>
               </div>
               <div className="states">
