@@ -41,9 +41,9 @@ const ServicesDark = () => {
     <DarkTheme>
       <Navbar nr={navbarRef} lr={logoRef} />
       <WorksStyle3 />
-      <Services6 />
       <ProjectIntroduction projectIntroductionData={ProjectDate.intro} />
       <ProjectDescription projectDescriptionData={ProjectDate.description} />
+      <Services6 />
     </DarkTheme>
   );
 };
