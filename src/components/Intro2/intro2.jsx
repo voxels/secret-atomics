@@ -10,12 +10,9 @@ const Intro2 = ({ sliderRef }) => {
           <div className="col-lg-6 valign">
             <div className="cont md-mb50">
               <div className="sub-title mb-5">
-                <h6>Product Design Studio</h6>
+                <h6>Founding Engineer</h6>
               </div>
-              <h1 className="mb-10 fw-600">Reach out to us.</h1>
-              <p>
-                Tell us about what you want to build.
-              </p>
+              <h1 className="mb-10 fw-600">Say Hello.</h1>
               <Link
                 to={`https://calendly.com/voxels-noisederived/30min`}
                 className="butn bord curve mt-30"

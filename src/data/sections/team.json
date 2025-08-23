@@ -4,19 +4,19 @@
         "id": 1,
         "image": "/img/team/1.jpg",
         "title": "Michael Edgcumbe",
-        "sub": "Product Designer and Lead iOS Engineer"
+        "sub": "Founding Engineer"
       }
     ],
   "skills": [
     {
       "id": 1,
       "text": "Product Design",
-      "value": "50%"
+      "value": "100%"
     },
     {
       "id": 2,
-      "text": "iOS & visionOS Engineering",
-      "value": "50%"
+      "text": "Mobile Engineering",
+      "value": "100%"
     }
   ]
 }

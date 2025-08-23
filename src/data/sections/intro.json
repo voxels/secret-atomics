@@ -3,19 +3,19 @@
         "id": 1,
         "image": "/img/slid/02.jpg",
         "title": "Native Mobile Applications",
-        "content": "10+ years of experience focusing on designing and developing full stack iOS applications and backend services, data explorers and visualizations, interactive installations, and games for adults and kids."
+        "content": "12+ years of experience focusing on designing and developing full stack iOS applications and backend services, data explorers and visualizations, interactive installations, and games for adults and kids."
     },
     {
         "id": 2,        
         "image": "/img/slid/01.jpg",
         "title": "VR, AR, and Spatial Computing",
-        "content": "10+ years of experience involved in researching and prototyping new application paradigms, solving challenging and interesting challenges in mixed computing spaces."
+        "content": "12+ years of experience involved in researching and prototyping new application paradigms, solving challenging and interesting challenges in mixed computing spaces."
 
     },
     {
         "id": 3,
         "image": "/img/slid/03.jpg",
         "title": "UI Design and UX Testing",
-        "content": "20+ years helping to design and launch products with venture-backed startups, non-profits, solo-entrepreneurs, and multinational corporations."
+        "content": "25+ years helping to design and launch products with venture-backed startups, non-profits, solo-entrepreneurs, and multinational corporations."
     }
 ]

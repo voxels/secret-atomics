@@ -15,7 +15,7 @@ const WorksStyle3 = () => {
           <div className="col-lg-10">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-                 Product Design and Engineering Clients
+                 Previous Work
               </h1>
             </div>
           </div>

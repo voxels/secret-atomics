@@ -38,7 +38,6 @@ const Contact = () => {
       <div className="main-content">
       <Intro2 />
       </div>
-      <Footer />
     </DarkTheme>
   );
 };

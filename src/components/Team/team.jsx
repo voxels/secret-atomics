@@ -22,7 +22,7 @@ const Team = () => {
           <div className="col-lg-5 valign">
             <div className="content wow fadeInUp md-mb30" data-wow-delay=".5s">
               <div className="sub-title">
-                <h6>Our Staff</h6>
+                <h6>Founding Engineer</h6>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -95,7 +95,7 @@ const Team = () => {
                           <p>
                           
               <h5>
-              <Link to={`https://voxels.github.io/professional_experience_092024`}>
+              <Link to={`https://voxels.github.io/professional_experience_082325`}>
                   Resumé
                 </Link>
                 </h5>
@@ -109,6 +109,14 @@ const Team = () => {
                 </Link>
                 </h5>
                 </p>
+                        <p>
+        <h5>
+        <Link to={`https://github.com/voxels`}>
+                 Github
+                </Link>
+                </h5>
+                </p>
+
                 </div>
           </div>
         </div>

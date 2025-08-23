@@ -6,9 +6,9 @@ const PagesHeader = () => {
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-lg-10">
-            <div className="cont mt-100 mb-50 text-center">
+            <div className="cont mt-100 mb-50 text-center"> 
               <h1 className="color-font fw-700">
-                 Secret Atomics creates native multi-platform applications for the Apple family of devices.
+                 Michael Edgcumbe creates native and cross-platform applications for the Apple ecosystem.
               </h1>
             </div>
           </div>

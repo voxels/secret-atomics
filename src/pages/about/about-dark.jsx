@@ -34,8 +34,6 @@ const About = () => {
       <PagesHeader />
       <AboutIntro />
       <Team />
-      <CallToAction />
-      <Footer />
     </DarkTheme>
   );
 };
