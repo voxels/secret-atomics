@@ -16,6 +16,40 @@ const ProjectDescription = ({ projectDescriptionData }) => {
             <div className="text js-scroll__content">
               <p className="extra-text">{projectDescriptionData.content}</p>
             </div>
+            <div className="text js-scroll__content">
+              <p className="extra-text">
+                AI & Machine Learning
+              </p>
+              <ul className="smp-list mt-30">
+                {projectIntroductionData.ai_ml.map((item) => (
+                  <li key={item.id}>{item.name}</li>
+                ))}
+              </ul>
+              <p className="extra-text">
+                iOS Engineering & Performance Optimization
+              </p>
+              <ul className="smp-list mt-30">
+                {projectIntroductionData.ios_engineering.map((item) => (
+                  <li key={item.id}>{item.name}</li>
+                ))}
+              </ul>
+              <p className="extra-text">
+                0-to-1 Product Development & Leadership
+              </p>
+              <ul className="smp-list mt-30">
+                {projectIntroductionData.product_development.map((item) => (
+                  <li key={item.id}>{item.name}</li>
+                ))}
+              </ul>
+              <p className="extra-text">
+                UX Design & Product Strategy
+              </p>
+              <ul className="smp-list mt-30">
+                {projectIntroductionData.ux_design.map((item) => (
+                  <li key={item.id}>{item.name}</li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
       </div>

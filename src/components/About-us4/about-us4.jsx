@@ -13,9 +13,9 @@ const AboutUs4 = () => {
           </div>
           <div className="col-lg-4 valign">
             <div className="cont full-width">
-              <h3 className="color-font">Boundary pushing</h3>
+              <h3 className="color-font">Pushing boundaries</h3>
               <h6>
-                for thousands to billions of users
+                for billions of users
               </h6>
               {typeof window !== "undefined" && (
                 <ModalVideo
@@ -44,12 +44,12 @@ const AboutUs4 = () => {
                   </a>
                 </div>
                 <div className="valign">
-                  <span className="text">Watch our 2024 visionPro highlights</span>
+                  <span className="text">Watch our visionPro highlights</span>
                 </div>
               </div>
               <div className="states">
                 <h2 className="color-font fw-700">
-                  20 <span className="fz-30">years</span>
+                  25 <span className="fz-30">years</span>
                 </h2>
                 <p>launching products with venture-backed startups, non-profits, and solo-entrepreneurs, and Fortune 20 companies</p>
               </div>

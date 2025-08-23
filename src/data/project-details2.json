@@ -1,69 +1,141 @@
 {
   "id": 1,
-  "title": { "small": "art & illustration", "big": "Inspiring new space." },
-  "clientURLLink": "#",
-  "projectHeaderImage": "/img/portfolio/project2/bg.jpg",
-  "videoLink": "https://vimeo.com/127203262",
-  "clientURLName": "Envato.com",
-  "date": "6 August 2022",
-  "categories": [
-    {
-      "id": 1,
-      "name": "Web Design",
-      "link": "#"
-    },
-    {
-      "id": 2,
-      "name": "WordPress",
-      "link": "#"
-    }
-  ],
-  "tags": [
-    {
-      "id": 1,
-      "name": "Minimal",
-      "link": "#"
-    },
-    {
-      "id": 2,
-      "name": "Modern",
-      "link": "#"
-    },
-    {
-      "id": 3,
-      "name": "Design",
-      "link": "#"
-    }
-  ],
+  "title": { "small": "design & development", "big": "Mobile Applications." },
+  "videoLink": "https://www.youtube.com/playlist?list=PLkh-prFifbDUWjb-UAptItZcgJuicTRly",
   "intro": {
-    "content": "I am a consultant that provides Digital Products and Services turns to focus on client success.",
+    "content": "A high-ownership iOS Engineer with a decade of experience leading the 0-to-1 development of innovative, AI-powered consumer applications.",
     "spmList": [
       {
         "id": 1,
-        "name": "Aenean sollicitudin"
+        "name": "AI & Machine Learning"
       },
       {
         "id": 2,
-        "name": "lorem quis bibendum auctor"
+        "name": "iOS Engineering & Performance Optimization"
       },
       {
-        "id": 31,
-        "name": "nisi elit conseq uat ipsum"
+        "id": 3,
+        "name": "0-to-1 Product Development & Leadership"
       },
       {
         "id": 4,
-        "name": "nec sagittis sem nibh id elit"
+        "name": "UX Design & Product Strategy"
       }
     ]
   },
-  "gallery": [
-    "/img/portfolio/project2/1.jpg",
-    "/img/portfolio/project2/2.jpg",
-    "/img/portfolio/project2/3.jpg",
-    "/img/portfolio/project2/5.jpg",
-    "/img/portfolio/project2/7.jpg"
-  ],
   "description": {
-    "content": "We are a Creative Agency & Startup Studio that provides Digital Products and Services turns to focus on client success. We specialize in user interface design, including front-end development which we consider to be an integral part."
+    "content": "A high-ownership iOS Engineer with a decade of experience leading the 0-to-1 development of innovative, AI-powered consumer applications. My passion is architecting delightful, high-performance mobile experiences by bridging the gap between cutting-edge AI, intuitive UX design, and elegant Swift code.",
+    "ai_ml": [
+      {
+        "id": 1,
+        "name": "Integrated on-device Large Language Models (LLMs) and generative AI (CoreML, Vision, LLaMA) to create novel, intelligent user workflows in consumer applications."
+      },
+      {
+        "id": 2,
+        "name": "Deployed custom generative AI models for on-device applications on both iOS and visionOS, pushing the boundaries of mobile AI."
+      },
+      {
+        "id": 3,
+        "name": "Led rapid prototyping for on-device ML and AR features for Google Maps, building high-fidelity proofs-of-concept that directly influenced product roadmaps."
+      },
+      {
+        "id": 4,
+        "name": "Integrated diverse Google technologies like ARKit, MLKit, and Firebase to validate advanced AI-driven experience concepts with live data."
+      },
+      {
+        "id": 5,
+        "name": "Leveraged Google Cloud Platform (GCP) for deploying and managing machine learning models used in iOS prototypes."
+      },
+      {
+        "id": 6,
+        "name": "Defined the product strategy for new AI/ML features at Google through the creation of high-fidelity, data-driven prototypes."
+      }
+    ],
+    "ios_engineering": [
+      {
+        "id": 1,
+        "name": "Architected, built, and maintained high-performance iOS applications using Swift, SwiftUI (iOS 16+), and UIKit."
+      },
+      {
+        "id": 2,
+        "name": "Obsessively optimized app performance in a high-velocity environment, reducing P90 latency in a core UI by 41% (from 616ms to <380ms) to enhance user experience for millions of daily active users."
+      },
+      {
+        "id": 3,
+        "name": "Engineered a high-performance graphics and media pipeline using Metal, RealityKit, and AVFoundation, demonstrating expertise in managing battery drain in graphics-intensive applications."
+      },
+      {
+        "id": 4,
+        "name": "Architected and replaced a legacy Abstract Syntax Tree (AST) ranking engine with a modern, cross-platform executor, improving system maintainability and performance."
+      },
+      {
+        "id": 5,
+        "name": "Established and refined mobile development best practices, including modular architecture, testing, CI/CD, and release processes."
+      },
+      {
+        "id": 6,
+        "name": "Deep expertise in concurrency, threading, and performance optimizations to build lightning-fast, ergonomic, and innovative iOS UI."
+      },
+      {
+        "id": 7,
+        "name": "Refactored major components, including navigation controllers and audio asset handling, to improve performance and user experience."
+      },
+      {
+        "id": 8,
+        "name": "Established and configured CI/CD pipelines using Bitrise to streamline the development and release process."
+      }
+    ],
+    "product_development": [
+      {
+        "id": 1,
+        "name": "Led the 0-to-1 development of new AI-powered consumer applications, owning the entire product lifecycle from initial concept and user research to App Store launch."
+      },
+      {
+        "id": 2,
+        "name": "Acted as a Founding Engineer & Product Architect, establishing development standards and processes for new mobile experiences."
+      },
+      {
+        "id": 3,
+        "name": "Built and shipped new consumer products from the ground up, managing the full software development lifecycle."
+      },
+      {
+        "id": 4,
+        "name": "Developed and patented a novel user experience concept at Google that set the design and architectural direction for core engineering teams."
+      },
+      {
+        "id": 5,
+        "name": "Mentored junior engineers on iOS best practices, performance optimization, and fostering technical excellence."
+      },
+      {
+        "id": 6,
+        "name": "Acted as the sole engineer on projects, handling both backend (Parse) and native iOS development to launch initial products from scratch."
+      }
+    ],
+    "ux_design": [
+      {
+        "id": 1,
+        "name": "Worked as a key partner to product and design teams, translating deep user insights into feasible, elegant technical solutions that delighted users."
+      },
+      {
+        "id": 2,
+        "name": "Designed and built comprehensive, interactive prototypes demonstrating 35 end-to-end user journeys, which was instrumental in user research and securing leadership buy-in."
+      },
+      {
+        "id": 3,
+        "name": "Architected and built fluid, high-performance user interfaces entirely with SwiftUI, with a strong focus on great UX, intuitive design, and reusable components."
+      },
+      {
+        "id": 4,
+        "name": "Collaborated daily with cross-functional teams—including product, design, backend, and analytics—to define, build, and iterate on features."
+      },
+      {
+        "id": 5,
+        "name": "Strong intuition and deeply considered opinions about iOS app design and aesthetics, with a portfolio of beautiful, useful applications."
+      },
+      {
+        "id": 6,
+        "name": "Led a complete rewrite of a client interface to implement a new design, integrating multiple third-party SDKs for analytics and payments."
+      }
+    ]
   }
 }

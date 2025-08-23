@@ -44,12 +44,9 @@ const ServicesDark = () => {
       <Navbar nr={navbarRef} lr={logoRef} />
       <WorksStyle3 />
       <Services6 />
-              <ProjectDetails2Header projectHeaderData={ProjectDate} />
-        <ProjectIntroduction projectIntroductionData={ProjectDate.intro} />
-        <ProjectGallery />
-        <ProjectDescription projectDescriptionData={ProjectDate.description} />
-        <ProjectVideo projectVideoDate={ProjectDate} />
-
+      <ProjectIntroduction projectIntroductionData={ProjectDate.intro} />
+      <ProjectDescription projectDescriptionData={ProjectDate.description} />
+      <ProjectVideo projectVideoDate={ProjectDate} />
     </DarkTheme>
   );
 };

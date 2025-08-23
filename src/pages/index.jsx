@@ -45,8 +45,6 @@ const Homepage1 = () => {
       <div ref={MainContent} className="main-content">
       <Services4 serviceMB50 />
       <AboutUs4 />
-      <CallToAction img="/img/patrn1.png" />
-      <Footer />
       </div>
     </DarkTheme>
   );
