@@ -44,7 +44,6 @@ const ServicesDark = () => {
       <Services6 />
       <ProjectIntroduction projectIntroductionData={ProjectDate.intro} />
       <ProjectDescription projectDescriptionData={ProjectDate.description} />
-      <ProjectVideo projectVideoDate={ProjectDate} />
     </DarkTheme>
   );
 };

@@ -15,6 +15,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
           <div className="col-lg-8 offset-lg-1 col-md-8">
             <div className="text js-scroll__content">
               <p className="extra-text">{projectDescriptionData.content}</p>
+              <br></br>
             </div>
             <div className="text js-scroll__content">
               <p className="extra-text">
@@ -25,6 +26,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
+              <br></br>
               <p className="extra-text">
                 iOS Engineering & Performance Optimization
               </p>
@@ -33,6 +35,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
+              <br></br>
               <p className="extra-text">
                 0-to-1 Product Development & Leadership
               </p>
@@ -41,6 +44,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
+              <br></br>
               <p className="extra-text">
                 UX Design & Product Strategy
               </p>
