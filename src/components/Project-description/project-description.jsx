@@ -21,7 +21,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
                 AI & Machine Learning
               </p>
               <ul className="smp-list mt-30">
-                {projectIntroductionData.ai_ml.map((item) => (
+                {projectDescriptionData.ai_ml.map((item) => (
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
@@ -29,7 +29,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
                 iOS Engineering & Performance Optimization
               </p>
               <ul className="smp-list mt-30">
-                {projectIntroductionData.ios_engineering.map((item) => (
+                {projectDescriptionData.ios_engineering.map((item) => (
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
@@ -37,7 +37,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
                 0-to-1 Product Development & Leadership
               </p>
               <ul className="smp-list mt-30">
-                {projectIntroductionData.product_development.map((item) => (
+                {projectDescriptionData.product_development.map((item) => (
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
@@ -45,7 +45,7 @@ const ProjectDescription = ({ projectDescriptionData }) => {
                 UX Design & Product Strategy
               </p>
               <ul className="smp-list mt-30">
-                {projectIntroductionData.ux_design.map((item) => (
+                {projectDescriptionData.ux_design.map((item) => (
                   <li key={item.id}>{item.name}</li>
                 ))}
               </ul>
