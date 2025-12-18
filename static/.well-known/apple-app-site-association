@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [ "23264QUM9A.com.secretatomics.diver" ],
+        "components": [
+          {
+            "/": "/item/*",
+            "comment": "Matches Diver shared items"
+          }
+        ]
+      }
+    ]
+  }
+}
