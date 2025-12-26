@@ -26,6 +26,10 @@ export class PixelBoard {
         console.log(`[PixelBoard] Set pixel (${x}, ${y}) to ${color}`);
     }
 
+    async clearPixel(x: number, y: number) {
+        await this.setPixel(x, y, '#ffffff');
+    }
+
     async getBoard(): Promise<string[][]> {
         const board = Array(this.height).fill(null).map(() => Array(this.width).fill('#ffffff'));
 

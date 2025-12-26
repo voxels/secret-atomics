@@ -84,3 +84,52 @@ The simulator remembers its state just like the real game.
 1.  Open `http://localhost:3000` in **two separate tabs** (or windows).
 2.  Place a pixel in Tab A.
 3.  **Result**: It should instantly appear in Tab B.
+
+## 8. Automated Qualitative Studies (New!)
+The workbench now supports automated user research studies triggered by game events.
+
+### A. Setup
+1.  **Trigger**: Users must place **3 pixels** to unlock the "Take Research Survey" button.
+2.  **Survey**: A mix of Rating, Binary, and Open-ended questions.
+3.  **Gemini Moderator**: An AI agent analyzes open-ended answers and inserts follow-up questions if the user provides a thoughtful response (simulated).
+4.  **Tiered Palette (Study Pass)**: Participants start with a *Limited* palette (Primary/Secondary).
+    - To test the upgrade flow, click the **💎 Buy Study Pass** button.
+    - Success triggers the **Premium Palette**, unlocking all design colors as visual swatches.
+5.  **Interactive Swatches**: The palette is rendered as clickable circles. The active color is highlighted with a white border.
+6.  **Pixel Toggling**: If you click a pixel that is already colored with your *current* selection, it will toggle back to white.
+
+### B. Designer Role ("God Mode" for Research)
+To edit the survey questions:
+1.  Reload the app.
+2.  Select **"Study Designer"** from the Role Selection screen.
+3.  **Features**:
+    *   **Full UI Access**: The Designer can see the Pixel Board, Vibe Coding Menu, and Debug Overlay while editing.
+    *   **Edit Study**: Add/Edit/Delete questions.
+    *   **🤖 Toggle Follow-up**: Use the robot icon button to enable/disable automated Gemini follow-up questions for specific questions.
+
+### C. Moderator Role (Live Monitor)
+To watch a study in progress:
+1.  Reload the app.
+2.  Select **"Moderator"**.
+3.  **Live Monitor**: A real-time log of every pixel placed and survey answer submitted.
+4.  **Cross-Tab Sync**: The monitor automatically listens for events from **other browser tabs/windows** using `BroadcastChannel`. You can run the Participant and Moderator roles in entirely separate windows.
+5.  **Clean UI**: Headers and config menus are automatically hidden for moderators to maximize dashboard visibility.
+
+## 9. Role-Based Access
+The app is now stratified into three interfaces:
+*   **Participant**: Pure gameplay + Survey (No admin tools).
+*   **Designer**: Full UI + Survey Editor.
+*   **Moderator**: Event stream only.
+
+### E. Triggering Gemini Interventions (Rage Clicks)
+To test the AI's frustration detection:
+1.  Connect as a **Participant**.
+2.  Rapidly click any pixel **5 times in under 1 second**.
+3.  **Result**: An immediate red-bordered "Gemini Observation" modal will appear, asking a context-sensitive question about your frustration.
+4.  **Note**: This bypasses the 3-pixel requirement for the standard survey.
+
+## 10. Summary of Gemini Logic
+| Event | Trigger | AI Behavior |
+| --- | --- | --- |
+| **Thoughtful Answer** | 5+ words in survey | Inserts context-relevant follow-up question. |
+| **Frustration** | 5 clicks in 1s | Immediate modal intervention with frustration check. |
