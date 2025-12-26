@@ -1,0 +1,23 @@
+[
+    {
+        "id": "gold_100",
+        "name": "100 Reddit Gold",
+        "price_gold": 100,
+        "stock": 999,
+        "sold_out": false
+    },
+    {
+        "id": "gold_500",
+        "name": "500 Reddit Gold",
+        "price_gold": 450,
+        "stock": 100,
+        "sold_out": false
+    },
+    {
+        "id": "custom_avatar_rare",
+        "name": "Ultra Rare Avatar",
+        "price_gold": 500,
+        "stock": 5,
+        "sold_out": false
+    }
+]

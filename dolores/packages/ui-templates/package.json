@@ -1,0 +1,12 @@
+{
+    "name": "@dolores/ui-templates",
+    "version": "1.0.0",
+    "main": "src/index.ts",
+    "types": "src/index.ts",
+    "dependencies": {
+        "@dolores/signal-integrity": "*"
+    },
+    "scripts": {
+        "build": "tsc"
+    }
+}

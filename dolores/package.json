@@ -1,0 +1,18 @@
+{
+  "name": "dolores",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "start": "npm run start --workspace=apps/sample-experiment",
+    "build": "npm run build --workspaces",
+    "test": "npm test --workspaces"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

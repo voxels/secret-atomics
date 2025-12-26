@@ -10,7 +10,8 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "npm run build:dolores && gatsby build",
+    "build:dolores": "cd dolores && npm run build --workspace=apps/pixel-placer && mkdir -p ../static/dolores && cp -r apps/pixel-placer/dist/* ../static/dolores/",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
