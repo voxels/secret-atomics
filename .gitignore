@@ -72,3 +72,7 @@ public
 # System files
 .DS_Store
 Thumbs.db
+/.next/dev/cache
+/.next/dev
+/_archive_gatsby
+/_archive_noisederived
