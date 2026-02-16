@@ -1,0 +1,579 @@
+[
+  {
+    "title": "Comparing VR Rendering Models",
+    "slug": "comparing-vr-rendering-models",
+    "url": "https://noisederived.com/blog/comparing-vr-rendering-models/",
+    "status": "COMPARED",
+    "matchPct": 77,
+    "matchedLines": 10,
+    "totalSourceLines": 13,
+    "totalMigratedLines": 25,
+    "missingFromMigrated": ["Oculus", "Unreal Engine", "←"],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·January 17th, 2023 –1 minute read",
+      "[VIDEO:Wqz57h1Fffo]",
+      "[VIDEO:WGjswDTy_nc]",
+      "[VIDEO:oLaJQ3ikrb0]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]"
+    ]
+  },
+  {
+    "title": "Creating a MetaHuman with an Intel RealSense depth camera",
+    "slug": "creating-a-metahuman-with-an-intel-realsense-depth-camera",
+    "url": "https://noisederived.com/blog/creating-a-metahuman-with-an-intel-realsense-depth-camera/",
+    "status": "COMPARED",
+    "matchPct": 100,
+    "matchedLines": 20,
+    "totalSourceLines": 20,
+    "totalMigratedLines": 20,
+    "missingFromMigrated": [],
+    "missingFromSource": [
+      "Michael Edgcumbe ·October 22nd, 2023 –1 minute read",
+      "Built with Contentful andGatsby ·Source"
+    ]
+  },
+  {
+    "title": "Creating a Youtube VR video in Unreal",
+    "slug": "creating-a-youtube-vr-video-in-unreal",
+    "url": "https://noisederived.com/blog/creating-a-youtube-vr-video-in-unreal/",
+    "status": "COMPARED",
+    "matchPct": 94,
+    "matchedLines": 32,
+    "totalSourceLines": 34,
+    "totalMigratedLines": 38,
+    "missingFromMigrated": ["Youtube", "Unreal Engine"],
+    "missingFromSource": [
+      "Michael Edgcumbe ·September 13th, 2022 –1 minute read",
+      "[VIDEO:PoAqnRDY94U]",
+      "[VIDEO:ZvvnyjEen-o]",
+      "[VIDEO:pVUsu2OgKfw]",
+      "[VIDEO:mSR5ATSRPwg]",
+      "[VIDEO:PoAqnRDY94U]",
+      "[VIDEO:BTBjqj57Iu4]"
+    ]
+  },
+  {
+    "title": "Delivering Interactive Graphics Wirelessly to an LED Matrix",
+    "slug": "delivering-interactive-graphics-wirelessly-to-an-led-matrix",
+    "url": "https://noisederived.com/blog/delivering-interactive-graphics-wirelessly-to-an-led-matrix/",
+    "status": "COMPARED",
+    "matchPct": 84,
+    "matchedLines": 21,
+    "totalSourceLines": 25,
+    "totalMigratedLines": 22,
+    "missingFromMigrated": [
+      "volumetric displays",
+      "in order to drive the displays wirelessly from roaming depth cameras such as those in the iPhone X.",
+      "fabrication",
+      "wireless"
+    ],
+    "missingFromSource": [
+      "Driving interactive graphics from the framebuffer of a mobile device to a matrix of LEDs has involved optimizing steps in the pipeline on a case-by-case basis rather than trying to get it all to work at the same time.",
+      "Michael Edgcumbe ·June 1st, 2018 –1 minute read",
+      "[VIDEO:YZmgi2YkHQM]",
+      "[VIDEO:riJR49ga8fw]",
+      "[VIDEO:pguY782UVUk]",
+      "[VIDEO:-PAhgJRkSvs]"
+    ]
+  },
+  {
+    "title": "Detecting Gestures from the Motion of the Body in Relation to Itself",
+    "slug": "detecting-gestures-from-the-motion-of-the-body-in-relation-to-itself",
+    "url": "https://noisederived.com/blog/detecting-gestures-from-the-motion-of-the-body-in-relation-to-itself/",
+    "status": "COMPARED",
+    "matchPct": 82,
+    "matchedLines": 14,
+    "totalSourceLines": 17,
+    "totalMigratedLines": 13,
+    "missingFromMigrated": ["Processing", "←", "Experimenting with Data Explorers"],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Measuring the motion of a skeleton's joints in relation to each other generates signals that might be recognized as gestures.",
+      "Michael Edgcumbe ·June 1st, 2018 –1 minute read",
+      "[VIDEO:fnyEgY6qd5I]",
+      "[VIDEO:yRd-PS_Xkdc]",
+      "[VIDEO:U4CIL6vd7dI]",
+      "[VIDEO:f0ei4WOH0wU]"
+    ]
+  },
+  {
+    "title": "Eliminating Collection View Tearing with Xcode's Time Profiler Instrument",
+    "slug": "eliminating-collection-view-tearing-with-xcodes-time-profiler-instrument",
+    "url": "https://noisederived.com/blog/eliminating-collection-view-tearing-with-xcodes-time-profiler-instrument/",
+    "status": "COMPARED",
+    "matchPct": 98,
+    "matchedLines": 78,
+    "totalSourceLines": 80,
+    "totalMigratedLines": 71,
+    "missingFromMigrated": ["instruments.", "No serious issues popped up after refactoring."],
+    "missingFromSource": [
+      "Michael Edgcumbe ·July 15th, 2018 –1 minute read",
+      "[VIDEO:SjJ66Wl4tI8]",
+      "[VIDEO:SjJ66Wl4tI8]",
+      "[VIDEO:AzOr3a0rP64]",
+      "[VIDEO:iXQq7ciXVUc]",
+      "[VIDEO:xiR5rvbiRDo]"
+    ]
+  },
+  {
+    "title": "Experimenting with Data Explorers",
+    "slug": "experimenting-with-data-explorers",
+    "url": "https://noisederived.com/blog/experimenting-with-data-explorers/",
+    "status": "COMPARED",
+    "matchPct": 83,
+    "matchedLines": 19,
+    "totalSourceLines": 23,
+    "totalMigratedLines": 18,
+    "missingFromMigrated": [
+      "data visualization",
+      "dashboards",
+      "←",
+      "Generating Interactive Particle Systems in OpenCV and SpriteKit"
+    ],
+    "missingFromSource": [
+      "Interactive data explorers can help refine questions for better collection and suggest new areas of inquiry. Data explorers often attempt to filter sets of data to reveal patterns in expected behavior described by an axis. For example, user experience patterns can be uncovered by installing behavior tracking in mobile applications. Data explorers can also incorporate predictions modeled from proprietary data sources. No matter what the source of the data might be, carefully defining the graph's dimensions and filtering mechanisms can help reveal interesting patterns hidden inside a complex tracking system.",
+      "Michael Edgcumbe ·June 1st, 2018 –1 minute read",
+      "[VIDEO:KP4pgTmJO-U]"
+    ]
+  },
+  {
+    "title": "Exploring Data Visualization on the Vision Pro",
+    "slug": "exploring-data-visualization-on-the-vision-pro",
+    "url": "https://noisederived.com/blog/exploring-data-visualization-on-the-vision-pro/",
+    "status": "COMPARED",
+    "matchPct": 100,
+    "matchedLines": 10,
+    "totalSourceLines": 10,
+    "totalMigratedLines": 13,
+    "missingFromMigrated": [],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·December 6th, 2023 –1 minute read",
+      "[VIDEO:uENvGmfLi4E]",
+      "[VIDEO:a_MXposqo58]",
+      "[VIDEO:v6ilKNPeiFQ]",
+      "Built with Contentful andGatsby ·Source"
+    ]
+  },
+  {
+    "title": "Generating Interactive Particle Systems in OpenCV and SpriteKit",
+    "slug": "generating-interactive-particle-systems-in-opencv-and-spritekit",
+    "url": "https://noisederived.com/blog/generating-interactive-particle-systems-in-opencv-and-spritekit/",
+    "status": "COMPARED",
+    "matchPct": 75,
+    "matchedLines": 12,
+    "totalSourceLines": 16,
+    "totalMigratedLines": 16,
+    "missingFromMigrated": [
+      "SceneKit",
+      "cameras",
+      "←",
+      "Iterating the Design of a Volumetric Display"
+    ],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·June 1st, 2018 –1 minute read",
+      "[VIDEO:4q2MzWvaNBI]",
+      "[VIDEO:6stWyq5aPUg]",
+      "[VIDEO:3VCu45F0iUU]"
+    ]
+  },
+  {
+    "title": "Iterating the Design of a Volumetric Display",
+    "slug": "iterating-the-design-of-a-volumetric-display",
+    "url": "https://noisederived.com/blog/iterating-the-design-of-a-volumetric-display-retrospective-and-v4-plan/",
+    "status": "COMPARED",
+    "matchPct": 13,
+    "matchedLines": 4,
+    "totalSourceLines": 30,
+    "totalMigratedLines": 39,
+    "missingFromMigrated": [
+      "The design for the volumetric display has gone through three iterations, not including the very first attempt, which was a collection of crafts from Michael's attached to a shaft:",
+      "Version 1 (2014)",
+      "The first working version was a collaboration with",
+      ".",
+      "The first stand was made from parts from Home Depot:",
+      "The strips were RGB, 30 per meter:",
+      "The strips were attached to custom harness attached to shaft set in a drill mounted in the stand.",
+      "And here's an image of the final product in motion:",
+      "The final version had color driven from an iPhone:",
+      "Version 2 (2016)",
+      "Version 2 used circular rings driven wirelessly by an interactive iPad:",
+      "It was mounted hanging from a rig that used parts from Servo City:",
+      "There were two sets of rings that were eventually mounted back to back.  In this photos they are next to each other:",
+      "Between the rings and the motor was a shelf from Home Depot:",
+      "The final version did not spin with perfect motion in the vertical axis because the motor was moving the frame of the shelf:",
+      "With somewhat stabilized motion, the axis was still out of alignment:",
+      "Version 3 (2023)",
+      "In 2023, we are using LED panels mounted to a robotics frame to make the display visible.  Here's a version of the inner frame being rendered in Unreal:",
+      "Because we are now using Unreal Engine 5 as our development environment, the first step was to render out a particle system from Unreal to the LED panels:",
+      "The content delivery system is wireless over MQTT.  Our next step was to make a visualization of the depth camera texture from Unreal transmitted to a simulated version of our display.  Here's a video of both sides being delivered in one texture being mapped to the simulated panel display with a dynamic material instance:",
+      "display",
+      "led",
+      "arduino",
+      "SceneKit",
+      "iPad",
+      "wireless"
+    ],
+    "missingFromSource": [
+      "Michael Edgcumbe ·June 1st, 2018 –1 minute read",
+      "The video below shows our first attempt at seeing what kind of visual we could get out of simply strapping a loose LED strip and an EL wire.",
+      "[VIDEO:3dzCgJinFRY]",
+      "In our next rig, Eric came up with a nice wiring configuration for a Teensy strapped to four foot rod rotated by a corded drill. We had to replace the rod we bought from Home Depot with one we got from McMaster in order to get less variation in the straightness of the stainless steel.",
+      "Our first iterations just had loose LED strips attached to the rod with zip ties. We found that the shock from the rotation was killing LEDs. Backing the strips with a rigid material, like cut up strips of window frames, helps protect the LEDs from broken connections. Eric rigged up a servo motor to hold down the drill's trigger in a nice bit of hacking.",
+      "[VIDEO:_z-agriuTms]",
+      "Even though we bought a precisely manufactured rod, leaving one end of the rotation axis unpinned seemed to cause a lot of violent vibrations. Adjusting the strips to surround the rod helped, as did weighing down the cabinet we used to house the drill. The vibration decreased as the speed of the rotation increased, however, we did not always get a smooth transition from stop to full speed.",
+      "[VIDEO:EMkDjR-ZdeM]",
+      "The LEDs need a fast refresh rate to create the smallest arcs possible. Changing the speed of the rotation along with the duration of the runloop for the LED driver affects the lengths of the arcs of the strip. We did not achieve pinpointed light in this iteration, but we were able to achieve some interesting patterns.",
+      "[VIDEO:2fc0eFDiKQo]",
+      "[VIDEO:n6S9gD-Kurw]",
+      "[VIDEO:kBxQ9Wh2RmI]",
+      "[VIDEO:fbVL1WbkvBk]",
+      "Using Robotics Components",
+      "Two challenges came up in this design. The first challenge was that I had a smaller slip ring that did not have a bore hole through the center, so I was forced to mount the slip ring outside of the rotating components. I needed to use a hollow rod to take the wires down to the LED strips. The hollow rod I got from Amazon was imprecisely manufactured, and I shaved down the entire surface of the rod with a Dremel so that it would fit inside the bearings.",
+      "The second challenge was attaching all the wires inside of the rotating components. The lengths were not idea for connections and wrapping. I did end up using CAT5 cable for most of the connections, and I would do this again when working at this scale.",
+      "The videos below show the test pattern running before the mounts were attached to the hanging and in the first run of the rotation.",
+      "[VIDEO:Kb4ludVi8uI]",
+      "[VIDEO:uzfkbj2amok]",
+      "For kicks, I attached some material during the test to see what diffusion might look like:",
+      "[VIDEO:5-3eNz1TS7I]",
+      "[VIDEO:l2Ghu0QWy1o]"
+    ]
+  },
+  {
+    "title": "Iterating the Design of a Volumetric Display Retrospective and v3 Plan",
+    "slug": "iterating-the-design-of-a-volumetric-display-retrospective-and-v4-plan",
+    "url": "https://noisederived.com/blog/iterating-the-design-of-a-volumetric-display-retrospective-and-v4-plan/",
+    "status": "COMPARED",
+    "matchPct": 87,
+    "matchedLines": 26,
+    "totalSourceLines": 30,
+    "totalMigratedLines": 43,
+    "missingFromMigrated": ["display", "led", "iPad", "wireless"],
+    "missingFromSource": [
+      "Michael Edgcumbe ·February 11th, 2023 –1 minute read",
+      "[VIDEO:02VE1Vm1WeA]",
+      "[VIDEO:UZYAyF12m1Q]",
+      "[VIDEO:fbVL1WbkvBk]",
+      "[VIDEO:SeJVAdTEk-8]",
+      "[VIDEO:Kb4ludVi8uI]",
+      "[VIDEO:d1iZ5xmcc84]",
+      "[VIDEO:uzfkbj2amok]",
+      "[VIDEO:PMwnEhVShgs]",
+      "[VIDEO:pAkkQTD3bUI]",
+      "[VIDEO:6Ufe5buJwFE]"
+    ]
+  },
+  {
+    "title": "Know Maps Privacy Policy",
+    "slug": "know-maps-privacy-policy",
+    "url": "https://noisederived.com/blog/know-maps-privacy-policy/",
+    "status": "COMPARED",
+    "matchPct": 90,
+    "matchedLines": 35,
+    "totalSourceLines": 39,
+    "totalMigratedLines": 38,
+    "missingFromMigrated": [
+      "michael@secretatomics.com",
+      "Please remember to adapt this template to your app's unique data practices and ensure compliance with applicable privacy laws and regulations in your region. It's essential to make your privacy policy easily accessible to users within the app.",
+      "Copyright 2024",
+      "←"
+    ],
+    "missingFromSource": ["[IMAGE]", "Secret Atomics ·January 16th, 2024 –1 minute read"]
+  },
+  {
+    "title": "Know Maps: A VisionOS Place Discovery App",
+    "slug": "know-maps-a-visionos-place-discovery-app",
+    "url": "https://noisederived.com/blog/know-maps-a-visionos-place-discovery-app/",
+    "status": "COMPARED",
+    "matchPct": 100,
+    "matchedLines": 32,
+    "totalSourceLines": 32,
+    "totalMigratedLines": 37,
+    "missingFromMigrated": [],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·November 21st, 2023 –1 minute read",
+      "[VIDEO:nXKORxcLw3Y]",
+      "[VIDEO:-WJG84Fys3g]",
+      "[VIDEO:35PX0I48HUk]",
+      "[VIDEO:xHni-aXk_Zg]",
+      "[VIDEO:nOmlVljP6lI]",
+      "[VIDEO:KUP_OmggaVk]",
+      "Built with Contentful andGatsby ·Source"
+    ]
+  },
+  {
+    "title": "Measuring and Visualizing Motion of the Body Relative to Itself",
+    "slug": "measuring-and-visualizing-motion-of-the-body-relative-to-itself",
+    "url": "https://noisederived.com/blog/measuring-and-visualizing-motion-of-the-body-relative-to-itself/",
+    "status": "COMPARED",
+    "matchPct": 97,
+    "matchedLines": 69,
+    "totalSourceLines": 71,
+    "totalMigratedLines": 66,
+    "missingFromMigrated": ["←", "The dilemma of using ChatGPT in the interview process"],
+    "missingFromSource": [
+      "The General Tau Theory proposes a metric to measure the perception and execution of motion of the body in relation to itself. Using depth cameras to capture the change of the relative position and angle of triangles formed by the joints of the body generates visual results representing the values of Tau and Tau Dot.",
+      "Michael Edgcumbe ·April 23rd, 2023 –1 minute read",
+      "[VIDEO:2sO94PPpxF8]",
+      "[VIDEO:oc3LF_hYQUg]",
+      "[VIDEO:_8omG0MswMo]",
+      "[VIDEO:XBVLWENr31I]",
+      "[VIDEO:QKjt-1XbBGg]",
+      "[VIDEO:fvZFixwZxCs]",
+      "[VIDEO:7gP3BM2XG_I]",
+      "[VIDEO:IvYabYDAvXI]",
+      "[VIDEO:usu-JPu7zFQ]",
+      "[VIDEO:DV-63K_uzwg]",
+      "[VIDEO:hkf5tm-McrE]",
+      "[VIDEO:Lr8FalEwM3U]"
+    ]
+  },
+  {
+    "title": "Modeling an LED Strip in VisionOS",
+    "slug": "modeling-an-led-strip-in-visionos",
+    "url": "https://noisederived.com/blog/modeling-an-led-strip-in-visionos/",
+    "status": "COMPARED",
+    "matchPct": 83,
+    "matchedLines": 10,
+    "totalSourceLines": 12,
+    "totalMigratedLines": 13,
+    "missingFromMigrated": ["←", "Creating a MetaHuman with an Intel RealSense depth camera"],
+    "missingFromSource": [
+      "[IMAGE]",
+      "I modeled an LED strip to test out the Blender to Reality Composer Pro to Xcode pipeline for animating custom shader material attributes such as the Hue of the emissive color LED light.",
+      "Michael Edgcumbe ·June 24th, 2023 –1 minute read",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[VIDEO:wqV929eykko]"
+    ]
+  },
+  {
+    "title": "New Years Eve Party",
+    "slug": "new-years-eve-party",
+    "url": "https://noisederived.com/blog/new-years-eve-party/",
+    "status": "COMPARED",
+    "matchPct": 69,
+    "matchedLines": 11,
+    "totalSourceLines": 16,
+    "totalMigratedLines": 13,
+    "missingFromMigrated": ["DJ Booth", "leds", "projections", "SpriteKit", "←"],
+    "missingFromSource": [
+      "Michael Edgcumbe ·January 2nd, 2023 –1 minute read",
+      "[VIDEO:_YjH8KmbR0Q]",
+      "[VIDEO:lRcPm_RHRqs]",
+      "[VIDEO:N7P-E0iAzZI]",
+      "[VIDEO:iH0zYF6e-jE]"
+    ]
+  },
+  {
+    "title": "Prototyping with Tensegrity",
+    "slug": "prototyping-with-tensegrity",
+    "url": "https://noisederived.com/blog/prototyping-with-tensegrity/",
+    "status": "COMPARED",
+    "matchPct": 69,
+    "matchedLines": 9,
+    "totalSourceLines": 13,
+    "totalMigratedLines": 28,
+    "missingFromMigrated": [
+      "Scaling up the tensegrity model was an exercise in iterating a design through scale, and the results were pleasing throughout the process.  The mid-sized model was easy enough to construct and transport that additional models at that scale might be worthwhile to construct.",
+      "led",
+      "fabrication",
+      "arduino"
+    ],
+    "missingFromSource": [
+      "'Tensional integrity' describes compressed components balanced with tensioned components into a stable self-equilibrated state. One can think of bones and muscles in the skeletal system as demonstrating a similar type of balance.",
+      "Michael Edgcumbe ·June 1st, 2018 –1 minute read",
+      "[VIDEO:OFDETf-aPzg]",
+      "[VIDEO:AfQzTGCWnNA]",
+      "[VIDEO:jlWrnAMzQT4]",
+      "[VIDEO:GrjQIUv8PRg]"
+    ]
+  },
+  {
+    "title": "Rebuilding a VR Landscape",
+    "slug": "rebuilding-a-vr-landscape",
+    "url": "https://noisederived.com/blog/rebuilding-a-vr-landscape/",
+    "status": "COMPARED",
+    "matchPct": 98,
+    "matchedLines": 157,
+    "totalSourceLines": 161,
+    "totalMigratedLines": 174,
+    "missingFromMigrated": [
+      "PrivateDependencyModuleNames.AddRange(new string[] { \n\t\t\"HeadMountedDisplay\", \"OculusHMD\" });",
+      "Oculus",
+      "Unreal Engine",
+      "VR"
+    ],
+    "missingFromSource": [
+      "[IMAGE]",
+      "I took 17 steps to set up a landscape environment for VR.",
+      "Michael Edgcumbe ·August 21st, 2022 –1 minute read",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[IMAGE]",
+      "[CODE:csharp] PublicDependencyModuleNames.AddRange(new string[] { \"Core\", \"CoreUObject\", \"Engi...",
+      "[CODE:csharp] PrivateDependencyModuleNames.AddRange(new string[] { \\n\t\t\"HeadMountedDisplay\", \"O..."
+    ]
+  },
+  {
+    "title": "Rendering from Unreal Engine 5 to LED Panels over a wireless connection",
+    "slug": "rendering-from-unreal-engine-5-to-led-panels-over-a-wireless-connection",
+    "url": "https://noisederived.com/blog/rendering-from-unreal-engine-5-to-led-panels-over-a-wireless-connection/",
+    "status": "COMPARED",
+    "matchPct": 60,
+    "matchedLines": 3,
+    "totalSourceLines": 5,
+    "totalMigratedLines": 5,
+    "missingFromMigrated": ["wireless", "←"],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·September 28th, 2022 –1 minute read",
+      "[VIDEO:lGtigKAYkkg]"
+    ]
+  },
+  {
+    "title": "Streaming ChatGPT results to a view using Swift's AsyncSequence",
+    "slug": "streaming-chatgpt-results-to-a-view-using-swifts-asyncsequence",
+    "url": "https://noisederived.com/blog/streaming-chatgpt-results-to-a-view-using-swifts-asyncsequence/",
+    "status": "COMPARED",
+    "matchPct": 71,
+    "matchedLines": 10,
+    "totalSourceLines": 14,
+    "totalMigratedLines": 12,
+    "missingFromMigrated": [
+      "public func query(languageGeneratorRequest:LanguageGeneratorRequest, delegate:AssistiveChatHostStreamResponseDelegate? = nil) async throws->NSDictionary? {\n    if searchSession == nil {\n        searchSession = try await session()\n    }\n\n    guard let searchSession = searchSession else {\n        throw LanguageGeneratorSessionError.ServiceNotFound\n    }\n\n    let components = URLComponents(string: LanguageGeneratorSession.serverUrl)\n\n    guard let url = components?.url else {\n        throw LanguageGeneratorSessionError.ServiceNotFound\n    }\n\n    var request = URLRequest(url:url)\n    request.httpMethod = \"POST\"\n    request.setValue(\"application/json\", forHTTPHeaderField: \"Content-Type\")\n    request.setValue(\"Bearer \\(self.openaiApiKey)\", forHTTPHeaderField: \"Authorization\")\n\n    var body:[String : Any] = [\"model\":languageGeneratorRequest.model, \"prompt\":languageGeneratorRequest.prompt, \"max_tokens\":languageGeneratorRequest.maxTokens,\"temperature\":languageGeneratorRequest.temperature]\n\n    if let stop = languageGeneratorRequest.stop {\n        body[\"stop\"] = stop\n    }\n\n    if let user = languageGeneratorRequest.user {\n        body[\"user\"] = user\n    }\n\n    if delegate != nil {\n        body[\"stream\"] = true\n    }\n\n    let jsonData = try JSONSerialization.data(withJSONObject: body)\n    request.httpBody = jsonData\n\n    if let delegate = delegate {\n        return try await fetchBytes(urlRequest: request, apiKey: self.openaiApiKey, session: searchSession, delegate: delegate)\n    } else {\n        return try await fetch(urlRequest: request, apiKey: self.openaiApiKey) as? NSDictionary\n    }\n}",
+      "internal func fetchBytes(urlRequest:URLRequest, apiKey:String, session:URLSession, delegate:AssistiveChatHostStreamResponseDelegate) async throws -> NSDictionary? {\n    print(\"Requesting URL: \\(String(describing: urlRequest.url))\")\n    let (bytes, response) = try await session.bytes(for: urlRequest)\n\n    guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 else {\n        throw LanguageGeneratorSessionError.InvalidServerResponse\n    }\n\n    let retVal = NSMutableDictionary()\n    var fullString = \"\"\n\n    for try await line in bytes.lines {\n        if line == \"data: [DONE]\" {\n            break\n        }\n\n        guard let d = line.dropFirst(5).data(using: .utf8) else {\n            throw LanguageGeneratorSessionError.InvalidServerResponse\n        }\n        guard let json = try JSONSerialization.jsonObject(with: d) as? NSDictionary else {\n            throw LanguageGeneratorSessionError.InvalidServerResponse\n        }\n        guard let choices = json[\"choices\"] as? [NSDictionary] else {\n            throw LanguageGeneratorSessionError.InvalidServerResponse\n        }\n\n        if let firstChoice = choices.first, let text = firstChoice[\"text\"] as? String {\n            fullString.append(text)\n            delegate.didReceiveStreamingResult(with: text)\n        }\n    }\n\n    fullString = fullString.trimmingCharacters(in: .whitespaces)\n    retVal[\"text\"] = fullString\n    return retVal\n}",
+      "←",
+      "Modeling an LED Strip in VisionOS"
+    ],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·June 17th, 2023 –1 minute read",
+      "[CODE:swift] public func query(languageGeneratorRequest:LanguageGeneratorRequest, delegate:As...",
+      "[CODE:swift] internal func fetchBytes(urlRequest:URLRequest, apiKey:String, session:URLSessio..."
+    ]
+  },
+  {
+    "title": "The dilemma of using ChatGPT in the interview process",
+    "slug": "the-dilemma-of-using-chatgpt-in-the-interview-process",
+    "url": "https://noisederived.com/blog/the-dilemma-of-using-chatgpt-in-the-interview-process/",
+    "status": "COMPARED",
+    "matchPct": 86,
+    "matchedLines": 12,
+    "totalSourceLines": 14,
+    "totalMigratedLines": 14,
+    "missingFromMigrated": ["←", "Streaming ChatGPT results to a view using Swift's AsyncSequence"],
+    "missingFromSource": ["[IMAGE]", "Michael Edgcumbe ·June 1st, 2023 –1 minute read"]
+  },
+  {
+    "title": "Tips in implementing Tensorflow Lite to use movenet models in C++",
+    "slug": "tips-in-implementing-tensorflow-lite-to-use-movenet-models-in-c",
+    "url": "https://noisederived.com/blog/tips-in-implementing-tensorflow-lite-to-use-movenet-models-in-c/",
+    "status": "COMPARED",
+    "matchPct": 96,
+    "matchedLines": 74,
+    "totalSourceLines": 77,
+    "totalMigratedLines": 70,
+    "missingFromMigrated": [
+      "Then, get a mutable pointer to the input tensor's typed data and copy the decoded bitmap RGB array into the typed input tensor.",
+      "tensorflow",
+      "movenet"
+    ],
+    "missingFromSource": [
+      "Michael Edgcumbe ·February 23rd, 2023 –1 minute read",
+      "[CODE:cpp] uint8_t* typedInputTensor = interpreter->typed_input_tensor<uint8_t>(input);\\n   ..."
+    ]
+  },
+  {
+    "title": "Tips on Tasks from ChatGPT 4o",
+    "slug": "tips-on-tasks-from-chatgpt-4o",
+    "url": "https://noisederived.com/blog/tips-on-tasks-from-chatgpt-4o/",
+    "status": "COMPARED",
+    "matchPct": 44,
+    "matchedLines": 8,
+    "totalSourceLines": 18,
+    "totalMigratedLines": 15,
+    "missingFromMigrated": [
+      "subscription = content.subscribe(to: SceneEvents.Update.self, on: nil, componentType: nil) { event in\n            if browserModel.nextJointData != browserModel.firstJointData {\n                updateEntities()\n            }\n        }",
+      "func performDecodeAsyncOperation() async -> [String:[JointData]]? {\n    if let data = lastData as Data? {\n        return await Task.detached(priority: .background) { [weak self] in\n            return self?.createDecodeTask(with: data)\n        }.value\n    }\n    return nil\n}",
+      "// Optionally, a method to start the task\nfunc startDecodeTask() async throws {\n    cancelCurrentDecodeTask()\n    decodeTask = Task {\n        if Task.isCancelled {\n            print(\"returning cancelled task\")\n            return nil\n        }\n        return await performDecodeAsyncOperation()\n    }\n    try await handleDecodeTaskResult()\n    Task { @MainActor in\n        decodeTask = nil\n    }\n}\n\n// A method to handle the task result\nfunc handleDecodeTaskResult() async throws {\n    if Task.isCancelled {\n        print(\"Returning cancelled task with no value\")\n        decodeTask = nil\n        return\n    }\n    let value = await decodeTask?.result.map { result in\n        switch result {\n        case .some(let data):\n            return data\n        case .none:\n            print(\"Task failed with error\")\n            return [String:[JointData]]()\n        }\n    }\n\n    if let jointData = try value?.get(), let decodeTask = decodeTask, !decodeTask.isCancelled {\n        Task { @MainActor in\n            if nextJointData != jointData {\n                firstJointData = nextJointData\n                nextJointData = jointData\n                print(\"Swapped joint data\")\n            }\n        }\n    }\n}\n\npublic func cancelCurrentDecodeTask() {\n    if let decodeTask = decodeTask, !decodeTask.isCancelled {\n        cancelDecodeTask()\n        print(\"cancelled decode task\")\n    }\n    decodeTask = nil\n}\n\n// Optionally, a method to cancel the task\nfunc cancelDecodeTask() {\n    decodeTask?.cancel()\n}",
+      "// Compress the data\n\n        // Send data with user-initiated priority\n        let compressedData = try (jsonData as NSData).compressed(using: .lz4)\n\n        try multipeerSession.send(compressedData as Data, toPeers: multipeerSession.connectedPeers, with: .unreliable)\n    } catch {\n        print(error)\n    }\n\n           Task {\n            do {\n                lastData = try (data as NSData).decompressed(using: .lz4)\n                print(\"Did receive data \\(data) at \\(displayLinkTimestamp)\")\n            } catch {\n                print(error)\n            }\n        }",
+      "sendTask = Task(priority: .userInitiated) {\n                    if Task.isCancelled {\n                        print(\"Canceled task\")\n                        return\n                    }\n                    model.send(rawData:model.jointRawData)\n                    print(\"Sent model\")\n                }",
+      "Copyright 2024, Secret Atomics LLC",
+      "swift",
+      "concurrency",
+      "←",
+      "Tula House Privacy Policy"
+    ],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·June 5th, 2024 –1 minute read",
+      "[CODE:text] subscription = content.subscribe(to: SceneEvents.Update.self, on: nil, component...",
+      "[CODE:text] func performDecodeAsyncOperation() async -> [String:[JointData]]? {\\n    if let d...",
+      "[CODE:text] // Optionally, a method to start the task\\nfunc startDecodeTask() async throws {\\n...",
+      "[CODE:text] do { let jsonData = try JSONSerialization.data(withJSONObject: rawData)\\n\\n// Comp...",
+      "[CODE:text] sendTask = Task(priority: .userInitiated) {\\n                    if Task.isCancel..."
+    ]
+  },
+  {
+    "title": "Tula House Privacy Policy",
+    "slug": "tula-house-privacy-policy",
+    "url": "https://noisederived.com/blog/tula-house-privacy-policy/",
+    "status": "COMPARED",
+    "matchPct": 75,
+    "matchedLines": 9,
+    "totalSourceLines": 12,
+    "totalMigratedLines": 11,
+    "missingFromMigrated": [".", "Last updated: 08/23/24", "Copyright 2024"],
+    "missingFromSource": ["[IMAGE]", "Secret Atomics ·January 16th, 2024 –1 minute read"]
+  },
+  {
+    "title": "Using Nuitrack skeleton tracking to drive a Metahuman skeleton",
+    "slug": "using-nuitrack-skeleton-tracking-to-drive-a-metahuman-skeleton",
+    "url": "https://noisederived.com/blog/using-nuitrack-skeleton-tracking-to-drive-a-metahuman-skeleton/",
+    "status": "COMPARED",
+    "matchPct": 100,
+    "matchedLines": 14,
+    "totalSourceLines": 14,
+    "totalMigratedLines": 12,
+    "missingFromMigrated": [],
+    "missingFromSource": [
+      "[IMAGE]",
+      "Michael Edgcumbe ·October 25th, 2023 –1 minute read",
+      "[VIDEO:RRh5rTyIakQ]",
+      "Built with Contentful andGatsby ·Source"
+    ]
+  },
+  {
+    "title": "Working across platforms and teams on Google Maps",
+    "slug": "working-across-platforms-and-teams-on-google-maps",
+    "url": "https://noisederived.com/blog/working-across-platforms-and-teams-on-google-maps/",
+    "status": "COMPARED",
+    "matchPct": 78,
+    "matchedLines": 7,
+    "totalSourceLines": 9,
+    "totalMigratedLines": 9,
+    "missingFromMigrated": ["←", "About the Author"],
+    "missingFromSource": [
+      "[IMAGE]",
+      "My time at Google covered working on several different areas of development, blending user journeys and projects across teams as examples to pitch to executives. During my time there, I developed solutions in iOS, watchOS, and Unreal Engine.",
+      "Michael Edgcumbe ·February 11th, 2023 –1 minute read"
+    ]
+  }
+]

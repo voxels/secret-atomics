@@ -1,4 +1,22 @@
+[build]
+  command = "pnpm build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "24"
+  # Netlify uses npm by default, but we need pnpm
+  NPM_FLAGS = "--version"
+  PNPM_FLAGS = "--version"
+
+# Use the Next.js plugin for optimal Netlify deployment
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Headers configuration
 [[headers]]
-  for = "/.well-known/apple-app-site-association"
+  for = "/*"
   [headers.values]
-    Content-Type = "application/json"
+    X-Powered-By = "Medal Social"
+    
+# Redirects are handled by next.config.ts
+# Netlify will respect Next.js redirects automatically
