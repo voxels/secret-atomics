@@ -191,7 +191,7 @@ function AcceptanceCheckbox({
   t: ReturnType<typeof useTranslations>;
 }) {
   const consentLabel = t.rich('privacy-consent-label', {
-    privacyLink: (
+    privacyLink: (chunks) => (
       <a
         key="privacy-link"
         href="/privacy"
@@ -200,7 +200,7 @@ function AcceptanceCheckbox({
         className="text-primary hover:underline font-semibold"
         aria-label={t('privacy-aria-label')}
       >
-        {t('privacy-link')}
+        {chunks}
       </a>
     ),
   });

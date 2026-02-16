@@ -63,16 +63,7 @@ const LOCALE_DISPLAY_OVERRIDES: Partial<
     }
   >
 > = {
-  // Example: Customize Arabic to use native script
-  ar: {
-    title: 'خريطة الموقع العربية',
-    subtitle: 'عرض جميع الصفحات العربية',
-  },
-  // Norwegian: Use Norwegian text
-  nb: {
-    title: 'Norsk Sitemap',
-    subtitle: 'Se alle norske sider',
-  },
+  // Add locale display overrides here when new locales are added
 };
 
 /**

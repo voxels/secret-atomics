@@ -25,7 +25,7 @@ function NavigationMenuList({ className, ...props }: NavigationMenuPrimitive.Lis
       data-slot="navigation-menu-list"
       className={cn('gap-0 group flex flex-1 list-none items-center justify-center', className)}
       aria-orientation={undefined}
-      {...props}
+      {...(props as Omit<typeof props, 'ref'>)}
     />
   );
 }
@@ -35,7 +35,7 @@ function NavigationMenuItem({ className, ...props }: NavigationMenuPrimitive.Ite
     <NavigationMenuPrimitive.Item
       data-slot="navigation-menu-item"
       className={cn('relative', className)}
-      {...props}
+      {...(props as Omit<typeof props, 'ref'>)}
     />
   );
 }
@@ -127,7 +127,7 @@ function NavigationMenuIndicator({ className, ...props }: NavigationMenuPrimitiv
         'data-[state=visible]:animate-in data-[state=hidden]:animate-out data-[state=hidden]:fade-out data-[state=visible]:fade-in top-full z-[1] flex h-1.5 items-end justify-center overflow-hidden',
         className
       )}
-      {...props}
+      {...(props as Omit<typeof props, 'ref'>)}
     >
       <div className="bg-border rounded-tl-sm shadow-md relative top-[60%] h-2 w-2 rotate-45" />
     </NavigationMenuPrimitive.Icon>
