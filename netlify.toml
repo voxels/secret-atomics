@@ -7,6 +7,8 @@
   # Netlify uses npm by default, but we need pnpm
   NPM_FLAGS = "--version"
   PNPM_FLAGS = "--version"
+  # Ensure devDependencies are installed (needed for tsx, biome, etc.)
+  NODE_ENV = "development"
 
 # Use the Next.js plugin for optimal Netlify deployment
 [[plugins]]
