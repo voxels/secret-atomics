@@ -10,10 +10,6 @@
   # Ensure devDependencies are installed (needed for tsx, biome, etc.)
   NODE_ENV = "development"
 
-# Use the Next.js plugin for optimal Netlify deployment
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
 # Headers configuration
 [[headers]]
   for = "/*"
