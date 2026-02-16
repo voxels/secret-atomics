@@ -1,0 +1,20 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "23264QUM9A.com.secretatomics.VisualIntelligencePipeline",
+                "paths": [
+                    "/w/*",
+                    "/item",
+                    "/item/*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "23264QUM9A.com.secretatomics.VisualIntelligencePipeline"
+        ]
+    }
+}
