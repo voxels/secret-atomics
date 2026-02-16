@@ -28,9 +28,9 @@ export default function ArticleFilterBarClient({
   };
 
   return (
-    <div className="flex h-14 items-center justify-between">
+    <div className="flex min-h-14 flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
       {/* Categories */}
-      <div className="no-scrollbar flex flex-1 items-center space-x-6 overflow-x-auto pr-4">
+      <div className="flex flex-wrap items-center gap-x-6 gap-y-1 overflow-x-auto pr-4 sm:flex-1">
         <button
           type="button"
           onClick={() => handleCategoryChange('All')}
