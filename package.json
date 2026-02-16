@@ -17,7 +17,7 @@
     "prebuild": "pnpm generate:collections",
     "build": "next build",
     "start": "next start",
-    "generate:collections": "tsx scripts/generate-collections.ts",
+    "generate:collections": "pnpm exec tsx scripts/generate-collections.ts",
     "setup:check": "npx tsx src/scripts/validate-setup.ts",
     "lint": "biome check .",
     "format": "biome format . --write",
